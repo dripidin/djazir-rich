@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables — NEVER commit API keys
+.env
+.env.local
+.env.production
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.code-workspace
+
+# Build output (if added later)
+dist/
+build/

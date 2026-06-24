@@ -1,0 +1,15 @@
+{
+  "name": "djazair-rich-sultan-daro",
+  "version": "1.0.0",
+  "description": "DJAZAIR RICH - Sultan Daro landing page with Resend email orders",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev":   "node --env-file=.env --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "resend": "^4.6.0"
+  }
+}
